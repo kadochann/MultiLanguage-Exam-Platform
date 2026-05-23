@@ -11,34 +11,25 @@ namespace Project
 {
 
 
-    public partial class _Default
+    public partial class SinavBasla
     {
 
         /// <summary>
-        /// btnTR control.
+        /// lblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTR;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// btnEN control.
+        /// rptCategories control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEN;
-
-        /// <summary>
-        /// lnkStartExam control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnkStartExam;
+        protected global::System.Web.UI.WebControls.Repeater rptCategories;
     }
 }

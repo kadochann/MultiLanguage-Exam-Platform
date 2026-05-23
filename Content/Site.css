@@ -1,21 +1,77 @@
-﻿/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+﻿body {
+    background-color: #f6f8fb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+.navbar-brand {
+    font-weight: 700;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .body-content {
-        padding: 0;
+.page-wrapper {
+    min-height: calc(100vh - 140px);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.hero-card {
+    background: white;
+    border-radius: 18px;
+    padding: 45px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.category-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    height: 100%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+    transition: all 0.2s ease;
+}
+
+    .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
     }
+
+.question-card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.timer-box {
+    background-color: #212529;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.option-item {
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+    .option-item:hover {
+        background-color: #f1f3f5;
+    }
+
+.result-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #6c757d;
 }
