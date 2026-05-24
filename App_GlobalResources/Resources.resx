@@ -65,6 +65,7 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 
+	<!-- ===== SUNA'NIN MEVCUT ANAHTARLARI ===== -->
 	<data name="SiteTitle" xml:space="preserve">
     <value>Online Sınav Sistemi</value>
   </data>
@@ -152,4 +153,85 @@
 	<data name="NoHistory" xml:space="preserve">
     <value>Henüz sınav geçmişiniz bulunmuyor.</value>
   </data>
+
+	<!-- ===== SELIN'IN EKLEDIKLERI (Login, Register, Hata sayfalari icin) ===== -->
+	<data name="GirisYap" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+	<data name="GirisYapTitle" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+	<data name="KayitOl" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+	<data name="KayitOlTitle" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+	<data name="KullaniciAdi" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+	<data name="Sifre" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+	<data name="SifreTekrar" xml:space="preserve">
+    <value>Şifre (Tekrar)</value>
+  </data>
+	<data name="Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+	<data name="HesabinizYokMu" xml:space="preserve">
+    <value>Hesabınız yok mu?</value>
+  </data>
+	<data name="ZatenUyeMisiniz" xml:space="preserve">
+    <value>Zaten üye misiniz?</value>
+  </data>
+	<data name="KullaniciAdiZorunlu" xml:space="preserve">
+    <value>Kullanıcı adı zorunludur</value>
+  </data>
+	<data name="SifreZorunlu" xml:space="preserve">
+    <value>Şifre zorunludur</value>
+  </data>
+	<data name="SifreTekrarZorunlu" xml:space="preserve">
+    <value>Şifre tekrarı zorunludur</value>
+  </data>
+	<data name="EmailZorunlu" xml:space="preserve">
+    <value>E-posta zorunludur</value>
+  </data>
+	<data name="EmailGecersiz" xml:space="preserve">
+    <value>Geçersiz e-posta formatı</value>
+  </data>
+	<data name="SifrelerEslesmiyor" xml:space="preserve">
+    <value>Şifreler eşleşmiyor</value>
+  </data>
+	<data name="KullaniciAdiKisa" xml:space="preserve">
+    <value>Kullanıcı adı en az 3 karakter olmalı</value>
+  </data>
+	<data name="SifreKisa" xml:space="preserve">
+    <value>Şifre en az 4 karakter olmalı</value>
+  </data>
+	<data name="KullaniciAdiKullanimda" xml:space="preserve">
+    <value>Bu kullanıcı adı zaten kullanılıyor</value>
+  </data>
+	<data name="KayitBasarili" xml:space="preserve">
+    <value>Kayıt başarılı! Giriş sayfasına yönlendiriliyorsunuz...</value>
+  </data>
+	<data name="GirisHatali" xml:space="preserve">
+    <value>Kullanıcı adı veya şifre hatalı</value>
+  </data>
+	<data name="GenelHata" xml:space="preserve">
+    <value>Bir hata oluştu, lütfen tekrar deneyin.</value>
+  </data>
+	<data name="HataTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+	<data name="HataBaslik" xml:space="preserve">
+    <value>Bir Hata Oluştu</value>
+  </data>
+	<data name="HataMesaj" xml:space="preserve">
+    <value>Üzgünüz, beklenmedik bir hata oluştu. Lütfen ana sayfaya dönün.</value>
+  </data>
+	<data name="AnaSayfa" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+
 </root>

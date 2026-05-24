@@ -15,6 +15,15 @@ namespace Project
     {
 
         /// <summary>
+        /// ltTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltTitle;
+
+        /// <summary>
         /// head control.
         /// </summary>
         /// <remarks>
@@ -33,6 +42,24 @@ namespace Project
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// phUserMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phUserMenu;
+
+        /// <summary>
+        /// phAdminMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phAdminMenu;
+
+        /// <summary>
         /// ddlLanguage control.
         /// </summary>
         /// <remarks>
@@ -42,6 +69,15 @@ namespace Project
         protected global::System.Web.UI.WebControls.DropDownList ddlLanguage;
 
         /// <summary>
+        /// lblHosgeldin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblHosgeldin;
+
+        /// <summary>
         /// lnkLogin control.
         /// </summary>
         /// <remarks>
@@ -49,6 +85,15 @@ namespace Project
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkLogin;
+
+        /// <summary>
+        /// lnkRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkRegister;
 
         /// <summary>
         /// btnLogout control.

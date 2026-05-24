@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|c:\\users\\user\\desktop\\web-tech-project-main\\web-tech-project-main\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|c:\\users\\user\\desktop\\web-tech-project-main\\web-tech-project-main\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|c:\\users\\user\\desktop\\web-tech-project-main\\web-tech-project-main\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\app_code\\securityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:app_code\\securityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\app_code\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:app_code\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\app_code\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:app_code\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\app_code\\adminbasepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:app_code\\adminbasepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\app_globalresources\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:app_globalresources\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\hata.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:hata.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\hata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:hata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\hata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:hata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\register.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:register.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\soru.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D9B2A639-7CF7-416A-A375-7E6C046478E1}|Project.csproj|solutionrelative:soru.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_GlobalResources\\Resources.resx",
+              "RelativeDocumentMoniker": "App_GlobalResources\\Resources.resx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_GlobalResources\\Resources.resx",
+              "RelativeToolTip": "App_GlobalResources\\Resources.resx",
+              "ViewState": "AgIAANEAAAAAAAAAAAAcwOwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-23T17:40:17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-23T17:13:06.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminBasePage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\AdminBasePage.cs",
+              "RelativeDocumentMoniker": "App_Code\\AdminBasePage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\AdminBasePage.cs",
+              "RelativeToolTip": "App_Code\\AdminBasePage.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:12:10.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\BasePage.cs",
+              "RelativeDocumentMoniker": "App_Code\\BasePage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\BasePage.cs",
+              "RelativeToolTip": "App_Code\\BasePage.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:11:27.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\DbHelper.cs",
+              "RelativeDocumentMoniker": "App_Code\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\DbHelper.cs",
+              "RelativeToolTip": "App_Code\\DbHelper.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAswLwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:09:53.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecurityHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\SecurityHelper.cs",
+              "RelativeDocumentMoniker": "App_Code\\SecurityHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\App_Code\\SecurityHelper.cs",
+              "RelativeToolTip": "App_Code\\SecurityHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:10:34.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Register.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx.cs",
+              "RelativeToolTip": "Register.aspx.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:14:34.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-23T17:17:42.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-24T13:14:30.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Site.Master.cs",
+              "RelativeDocumentMoniker": "Site.Master.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Site.Master.cs",
+              "RelativeToolTip": "Site.Master.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:14:41.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hata.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Hata.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx.designer.cs",
+              "RelativeToolTip": "Hata.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:17:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:13:26.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Login.aspx.designer.cs",
+              "RelativeToolTip": "Login.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:13:44.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Hata.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx.cs",
+              "RelativeDocumentMoniker": "Hata.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx.cs",
+              "RelativeToolTip": "Hata.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:16:58.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Hata.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx",
+              "RelativeDocumentMoniker": "Hata.aspx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Hata.aspx",
+              "RelativeToolTip": "Hata.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-23T17:16:28.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Register.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx.designer.cs",
+              "RelativeToolTip": "Register.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:16:02.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx",
+              "RelativeDocumentMoniker": "Register.aspx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Register.aspx",
+              "RelativeToolTip": "Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-23T17:14:14.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Soru.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Soru.aspx",
+              "RelativeDocumentMoniker": "Soru.aspx",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Web-Tech-Project-main\\Web-Tech-Project-main\\Soru.aspx",
+              "RelativeToolTip": "Soru.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-23T16:52:04.909Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
