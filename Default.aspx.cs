@@ -16,7 +16,7 @@ namespace Project
                 && HttpContext.Current.Session["Dil"] != null)
             {
                 string sessionDil = HttpContext.Current.Session["Dil"].ToString();
-                if (sessionDil == "tr-TR" || sessionDil == "en-US" || sessionDil == "ar-SA")
+                if (sessionDil == "tr-TR" || sessionDil == "en-US")
                 {
                     dil = sessionDil;
                 }

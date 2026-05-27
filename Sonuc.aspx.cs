@@ -76,10 +76,13 @@ namespace Project
             int sure = (int)duration.TotalSeconds;
 
             string insertSql = @"
-                INSERT INTO SinavSonuclari (KullaniciId, KategoriId, DogruSayisi, YanlisSayisi, SureSaniye, SinavTarihi)
-                VALUES (?, ?, ?, ?, ?, ?)";
+                INSERT INTO SinavSonuclari (KullaniciId, KategoriId, DogruSayisi, YanlisSayisi, BosSayisi, SureSaniye, SinavTarihi)
+                VALUES (?, ?, ?, ?, ?, ?, ?)";
             
-            DbHelper.ExecuteNonQuery(insertSql, KullaniciId, kId, correct, wrong, sure, DateTime.Now);
+            DbHelper.ExecuteNonQuery(insertSql, KullaniciId, kId, correct, wrong, empty, sure, DateTime.Now);
+
+            // Temizle yarım kalan sınav verisini
+            DbHelper.ExecuteNonQuery("DELETE FROM YarimSinavlar WHERE KullaniciId = ?", KullaniciId);
 
             Session.Remove("Sorular");
             Session.Remove("Cevaplar");

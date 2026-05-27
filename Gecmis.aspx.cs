@@ -29,16 +29,15 @@ namespace Project
             table.Columns.Add("Skor");
 
             string dil = Session["Dil"] as string ?? "tr-TR";
-            string adKolonu = "AdTR";
-            if (dil == "en-US") adKolonu = "AdEN";
-            else if (dil == "ar-SA") adKolonu = "AdAR";
+            string adKolonu = (dil == "en-US") ? "AdEN" : "AdTR";
 
             string sql = $@"
                 SELECT 
                     K.{adKolonu} AS KategoriAd,
                     S.SinavTarihi, 
                     S.DogruSayisi, 
-                    S.YanlisSayisi
+                    S.YanlisSayisi,
+                    S.BosSayisi
                 FROM SinavSonuclari S
                 INNER JOIN Kategoriler K ON S.KategoriId = K.Id
                 WHERE S.KullaniciId = ?
@@ -55,9 +54,7 @@ namespace Project
                 DateTime tarih = Convert.ToDateTime(row["SinavTarihi"]);
                 int dogru = Convert.ToInt32(row["DogruSayisi"]);
                 int yanlis = Convert.ToInt32(row["YanlisSayisi"]);
-                int toplam = 5; // Assuming 5 questions per default
-                int bos = toplam - (dogru + yanlis);
-                if (bos < 0) bos = 0;
+                int bos = row["BosSayisi"] != DBNull.Value ? Convert.ToInt32(row["BosSayisi"]) : 0;
                 
                 int totalS = dogru + yanlis + bos;
                 int skor = totalS == 0 ? 0 : (dogru * 100) / totalS;

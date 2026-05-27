@@ -59,14 +59,17 @@
 
     </div>
 
+    <asp:HiddenField ID="hfRemainingSeconds" runat="server" />
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Scripts" runat="server">
 
     <script>
+        var initialRemainingSeconds = <%= InitialRemainingSeconds %>;
         let remainingSeconds = sessionStorage.getItem("remainingSeconds");
         if (remainingSeconds === null) {
-            remainingSeconds = 300;
+            remainingSeconds = initialRemainingSeconds;
         } else {
             remainingSeconds = parseInt(remainingSeconds);
         }
@@ -77,6 +80,11 @@
 
             document.getElementById("timer").innerText =
                 String(minutes).padStart(2, "0") + ":" + String(seconds).padStart(2, "0");
+
+            let hf = document.getElementById("<%= hfRemainingSeconds.ClientID %>");
+            if (hf) {
+                hf.value = remainingSeconds;
+            }
 
             if (remainingSeconds <= 0) {
                 sessionStorage.removeItem("remainingSeconds");
@@ -92,7 +100,27 @@
 
         document.addEventListener("visibilitychange", function () {
             if (document.hidden) {
-                alert("Sınav ekranından ayrıldınız. Bu durum uyarı olarak sayılabilir.");
+                fetch('Soru.aspx/IncrementWarningCount', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json; charset=utf-8'
+                    },
+                    body: '{}'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    let warningCount = parseInt(data.d);
+                    if (warningCount >= 3) {
+                        alert("Sınav ekranından 3 kez ayrıldığınız için sınavınız sonlandırılmıştır.");
+                        sessionStorage.removeItem("remainingSeconds");
+                        document.getElementById("<%= btnFinish.ClientID %>").click();
+                    } else {
+                        alert("Sınav ekranından ayrıldınız! Uyarı " + warningCount + " / 3. 3. uyarıda sınavınız sonlandırılacaktır.");
+                    }
+                })
+                .catch(err => {
+                    console.error("Warning count error", err);
+                });
             }
         });
     </script>
