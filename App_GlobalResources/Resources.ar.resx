@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="SiteTitle" xml:space="preserve">
+    <value>نظام الامتحانات عبر الإنترنت</value>
+  </data>
+	<data name="Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+	<data name="StartExam" xml:space="preserve">
+    <value>ابدأ الامتحان</value>
+  </data>
+	<data name="History" xml:space="preserve">
+    <value>السجل</value>
+  </data>
+	<data name="Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+	<data name="Logout" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+	<data name="WelcomeTitle" xml:space="preserve">
+    <value>مرحباً بك في نظام الامتحانات متعدد اللغات</value>
+  </data>
+	<data name="WelcomeText" xml:space="preserve">
+    <value>اختر فئتك، ابدأ الامتحان وشاهد نتيجتك فوراً.</value>
+  </data>
+	<data name="SelectLanguage" xml:space="preserve">
+    <value>اختيار اللغة</value>
+  </data>
+	<data name="Turkish" xml:space="preserve">
+    <value>التركية</value>
+  </data>
+	<data name="English" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+	<data name="Categories" xml:space="preserve">
+    <value>الفئات</value>
+  </data>
+	<data name="Start" xml:space="preserve">
+    <value>ابدأ</value>
+  </data>
+	<data name="Question" xml:space="preserve">
+    <value>سؤال</value>
+  </data>
+	<data name="Previous" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+	<data name="Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+	<data name="FinishExam" xml:space="preserve">
+    <value>إنهاء الامتحان</value>
+  </data>
+	<data name="TimeLeft" xml:space="preserve">
+    <value>الوقت المتبقي</value>
+  </data>
+	<data name="Correct" xml:space="preserve">
+    <value>صحيح</value>
+  </data>
+	<data name="Wrong" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+	<data name="Empty" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+	<data name="Score" xml:space="preserve">
+    <value>النتيجة</value>
+  </data>
+	<data name="Duration" xml:space="preserve">
+    <value>المدة</value>
+  </data>
+	<data name="ExamResult" xml:space="preserve">
+    <value>نتيجة الامتحان</value>
+  </data>
+	<data name="ExamHistory" xml:space="preserve">
+    <value>الامتحانات السابقة</value>
+  </data>
+	<data name="Category" xml:space="preserve">
+    <value>الفئة</value>
+  </data>
+	<data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+	<data name="NotTranslated" xml:space="preserve">
+    <value>لم تتم ترجمة هذا السؤال بعد.</value>
+  </data>
+	<data name="NoHistory" xml:space="preserve">
+    <value>ليس لديك سجل امتحانات حتى الآن.</value>
+  </data>
+	<data name="GirisYap" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+	<data name="GirisYapTitle" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+	<data name="KayitOl" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+	<data name="KayitOlTitle" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+	<data name="KullaniciAdi" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+	<data name="Sifre" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+	<data name="SifreTekrar" xml:space="preserve">
+    <value>كلمة المرور (تأكيد)</value>
+  </data>
+	<data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+	<data name="HesabinizYokMu" xml:space="preserve">
+    <value>ليس لديك حساب؟</value>
+  </data>
+	<data name="ZatenUyeMisiniz" xml:space="preserve">
+    <value>هل أنت عضو بالفعل؟</value>
+  </data>
+	<data name="KullaniciAdiZorunlu" xml:space="preserve">
+    <value>اسم المستخدم مطلوب</value>
+  </data>
+	<data name="SifreZorunlu" xml:space="preserve">
+    <value>كلمة المرور مطلوبة</value>
+  </data>
+	<data name="SifreTekrarZorunlu" xml:space="preserve">
+    <value>كلمة المرور (تأكيد) مطلوبة</value>
+  </data>
+	<data name="EmailZorunlu" xml:space="preserve">
+    <value>البريد الإلكتروني مطلوب</value>
+  </data>
+	<data name="EmailGecersiz" xml:space="preserve">
+    <value>صيغة البريد الإلكتروني غير صالحة</value>
+  </data>
+	<data name="SifrelerEslesmiyor" xml:space="preserve">
+    <value>كلمات المرور غير متطابقة</value>
+  </data>
+	<data name="KullaniciAdiKisa" xml:space="preserve">
+    <value>يجب أن يكون اسم المستخدم ٣ أحرف على الأقل</value>
+  </data>
+	<data name="SifreKisa" xml:space="preserve">
+    <value>يجب أن تكون كلمة المرور ٤ أحرف على الأقل</value>
+  </data>
+	<data name="KullaniciAdiKullanimda" xml:space="preserve">
+    <value>اسم المستخدم هذا قيد الاستخدام</value>
+  </data>
+	<data name="KayitBasarili" xml:space="preserve">
+    <value>تم التسجيل بنجاح! جاري التوجيه إلى صفحة تسجيل الدخول...</value>
+  </data>
+	<data name="GirisHatali" xml:space="preserve">
+    <value>اسم المستخدم أو كلمة المرور غير صحيحة</value>
+  </data>
+	<data name="GenelHata" xml:space="preserve">
+    <value>حدث خطأ، يرجى المحاولة مرة أخرى.</value>
+  </data>
+	<data name="HataTitle" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+	<data name="HataBaslik" xml:space="preserve">
+    <value>حدث خطأ ما</value>
+  </data>
+	<data name="HataMesaj" xml:space="preserve">
+    <value>عذراً، حدث خطأ غير متوقع. يرجى العودة إلى الصفحة الرئيسية.</value>
+  </data>
+	<data name="AnaSayfa" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+</root>
