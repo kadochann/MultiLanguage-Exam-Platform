@@ -126,6 +126,16 @@ namespace Project
                 ClientScript.RegisterStartupScript(this.GetType(), "initTimer", $"sessionStorage.setItem('remainingSeconds', {InitialRemainingSeconds});", true);
                 ShowQuestion();
             }
+            else
+            {
+                if (Session["ResumeKalanSaniye"] != null)
+                {
+                    InitialRemainingSeconds = Convert.ToInt32(Session["ResumeKalanSaniye"]);
+                }
+            }
+
+            string initialSecScript = $"var initialRemainingSeconds = {InitialRemainingSeconds};";
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "initialRemainingSeconds", initialSecScript, true);
         }
 
         private void ShowQuestion()

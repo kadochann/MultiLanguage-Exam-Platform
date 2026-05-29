@@ -245,5 +245,32 @@
 	<data name="IgnoreResumeButton" xml:space="preserve">
     <value>Yeni Sınav Başlat (Kaydı Sil)</value>
   </data>
+	<data name="AverageSuccessByCategory" xml:space="preserve">
+    <value>Kategori Bazlı Ortalama Başarı</value>
+  </data>
+	<data name="QuestionCount" xml:space="preserve">
+    <value>Soru Sayısı</value>
+  </data>
+	<data name="Seconds" xml:space="preserve">
+    <value>saniye</value>
+  </data>
+	<data name="Minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+	<data name="SeeHistory" xml:space="preserve">
+    <value>Geçmişi Gör</value>
+  </data>
+	<data name="SuccessPercentage" xml:space="preserve">
+    <value>Başarı (%)</value>
+  </data>
+	<data name="ExamSuccessProgress" xml:space="preserve">
+    <value>Sınav Başarı Gelişimi</value>
+  </data>
+	<data name="ExamDetails" xml:space="preserve">
+    <value>Sınav Detayları</value>
+  </data>
+	<data name="VisualDistribution" xml:space="preserve">
+    <value>Soru Dağılım Grafiği</value>
+  </data>
 
 </root>

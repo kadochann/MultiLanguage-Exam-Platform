@@ -245,5 +245,32 @@
 	<data name="IgnoreResumeButton" xml:space="preserve">
     <value>Start New Exam (Delete Progress)</value>
   </data>
+	<data name="AverageSuccessByCategory" xml:space="preserve">
+    <value>Average Success by Category</value>
+  </data>
+	<data name="QuestionCount" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+	<data name="Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+	<data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+	<data name="SeeHistory" xml:space="preserve">
+    <value>See History</value>
+  </data>
+	<data name="SuccessPercentage" xml:space="preserve">
+    <value>Success (%)</value>
+  </data>
+	<data name="ExamSuccessProgress" xml:space="preserve">
+    <value>Exam Success Progress</value>
+  </data>
+	<data name="ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+	<data name="VisualDistribution" xml:space="preserve">
+    <value>Question Distribution Chart</value>
+  </data>
 
 </root>

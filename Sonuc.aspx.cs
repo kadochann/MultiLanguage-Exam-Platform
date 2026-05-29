@@ -6,6 +6,11 @@ namespace Project
 {
     public partial class Sonuc : BasePage
     {
+        public string CategoryName { get; set; } = "";
+        public int CorrectCount { get; set; } = 0;
+        public int WrongCount { get; set; } = 0;
+        public int EmptyCount { get; set; } = 0;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -51,6 +56,10 @@ namespace Project
             int total = questions.Rows.Count;
             double score = total == 0 ? 0 : ((double)correct / total) * 100;
 
+            CorrectCount = correct;
+            WrongCount = wrong;
+            EmptyCount = empty;
+
             lblCorrect.Text = correct.ToString();
             lblWrong.Text = wrong.ToString();
             lblEmpty.Text = empty.ToString();
@@ -63,17 +72,26 @@ namespace Project
             TimeSpan duration = DateTime.Now - start;
 
             object durationText = GetGlobalResourceObject("Resources", "Duration");
+            object minutesText = GetGlobalResourceObject("Resources", "Minutes") ?? "dakika";
+            object secondsText = GetGlobalResourceObject("Resources", "Seconds") ?? "saniye";
 
             lblDuration.Text =
                 (durationText != null ? durationText.ToString() : "Süre") +
                 ": " +
                 duration.Minutes +
-                " dakika " +
+                " " + minutesText + " " +
                 duration.Seconds +
-                " saniye";
+                " " + secondsText;
 
             int kId = Session["KategoriId"] != null ? Convert.ToInt32(Session["KategoriId"]) : 1;
             int sure = (int)duration.TotalSeconds;
+
+            string dil = Session["Dil"] as string ?? "tr-TR";
+            string adKolonu = (dil == "en-US") ? "AdEN" : "AdTR";
+            string catQuery = $"SELECT {adKolonu} FROM Kategoriler WHERE Id = ?";
+            object catNameObj = DbHelper.ExecuteScalar(catQuery, kId);
+            CategoryName = catNameObj != null ? catNameObj.ToString() : "";
+            lblCategoryName.Text = CategoryName;
 
             string insertSql = @"
                 INSERT INTO SinavSonuclari (KullaniciId, KategoriId, DogruSayisi, YanlisSayisi, BosSayisi, SureSaniye, SinavTarihi)

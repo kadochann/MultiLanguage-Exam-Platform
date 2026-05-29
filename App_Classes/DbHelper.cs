@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Configuration;
 using System.Data;
 using System.Data.OleDb;
@@ -195,7 +195,14 @@ public static class DbHelper
             // Isim sadece okunabilirlik icin; OleDb sirayla eslestirir.
             var paramName = "@p" + i;
             var value = parameters[i] ?? DBNull.Value;
-            cmd.Parameters.AddWithValue(paramName, value);
+            if (value is DateTime)
+            {
+                cmd.Parameters.Add(paramName, OleDbType.Date).Value = (DateTime)value;
+            }
+            else
+            {
+                cmd.Parameters.AddWithValue(paramName, value);
+            }
         }
     }
 }
