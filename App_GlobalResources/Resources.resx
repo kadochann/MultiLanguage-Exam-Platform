@@ -272,5 +272,11 @@
 	<data name="VisualDistribution" xml:space="preserve">
     <value>Soru Dağılım Grafiği</value>
   </data>
+	<data name="HesabinizaGirisYapin" xml:space="preserve">
+    <value>Hesabınıza giriş yapın</value>
+  </data>
+	<data name="YeniHesapOlusturun" xml:space="preserve">
+    <value>Yeni bir hesap oluşturun</value>
+  </data>
 
 </root>

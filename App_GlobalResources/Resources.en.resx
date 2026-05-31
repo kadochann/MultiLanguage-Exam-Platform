@@ -272,5 +272,11 @@
 	<data name="VisualDistribution" xml:space="preserve">
     <value>Question Distribution Chart</value>
   </data>
+	<data name="HesabinizaGirisYapin" xml:space="preserve">
+    <value>Log in to your account</value>
+  </data>
+	<data name="YeniHesapOlusturun" xml:space="preserve">
+    <value>Create a new account</value>
+  </data>
 
 </root>

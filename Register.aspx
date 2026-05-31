@@ -1,4 +1,4 @@
-﻿<%@ Page Title="<%$ Resources:Resources, KayitOlTitle %>" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="OnlineSinavSistemi.Register" %>
+<%@ Page Title="<%$ Resources:Resources, KayitOlTitle %>" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="OnlineSinavSistemi.Register" %>
 
 <asp:Content ID="RegisterContent" ContentPlaceHolderID="MainContent" runat="server">
 <div class="row justify-content-center" style="padding-top:48px;">
@@ -11,7 +11,7 @@
             <h2 style="font-weight:800;font-size:1.6rem;letter-spacing:-.5px;">
                 <asp:Literal ID="ltKayitOlBaslik" runat="server" Text="<%$ Resources:Resources, KayitOl %>" />
             </h2>
-            <p style="color:var(--text-muted);font-size:.9rem;">Yeni bir hesap oluşturun</p>
+            <p style="color:var(--text-muted);font-size:.9rem;"><asp:Literal runat="server" Text="<%$ Resources:Resources, YeniHesapOlusturun %>" /></p>
         </div>
 
         <div class="card">

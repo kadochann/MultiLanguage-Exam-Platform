@@ -1,4 +1,4 @@
-﻿<%@ Page Title="<%$ Resources:Resources, GirisYapTitle %>" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="OnlineSinavSistemi.Login" %>
+<%@ Page Title="<%$ Resources:Resources, GirisYapTitle %>" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="OnlineSinavSistemi.Login" %>
 
 <asp:Content ID="LoginContent" ContentPlaceHolderID="MainContent" runat="server">
 <div class="row justify-content-center" style="padding-top:48px;">
@@ -11,7 +11,7 @@
             <h2 style="font-weight:800;font-size:1.6rem;letter-spacing:-.5px;">
                 <asp:Literal ID="ltGirisYap" runat="server" Text="<%$ Resources:Resources, GirisYap %>" />
             </h2>
-            <p style="color:var(--text-muted);font-size:.9rem;">Hesabınıza giriş yapın</p>
+            <p style="color:var(--text-muted);font-size:.9rem;"><asp:Literal runat="server" Text="<%$ Resources:Resources, HesabinizaGirisYapin %>" /></p>
         </div>
 
         <div class="card">

@@ -91,6 +91,11 @@ namespace Project
 
             gvHistory.DataSource = table;
             gvHistory.DataBind();
+            if (gvHistory.Rows.Count > 0)
+            {
+                gvHistory.UseAccessibleHeader = true;
+                gvHistory.HeaderRow.TableSection = TableRowSection.TableHeader;
+            }
 
             if (table.Rows.Count == 0)
             {
